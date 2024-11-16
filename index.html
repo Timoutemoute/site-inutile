@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site CSS Très Inutile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Attrape le bouton si tu peux !</h1>
+    <button id="runawayButton">Clique-moi</button>
+    <div id="controlPanel" style="display: none;">
+      <p>Bah alors, tu n'y arrives pas ? Tiens, règle la vitesse :</p>
+      <label for="speedInput">Vitesse :</label>
+      <input type="range" id="speedInput" min="0.5" max="5" step="0.1" value="1">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
